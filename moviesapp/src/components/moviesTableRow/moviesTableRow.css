@@ -1,0 +1,13 @@
+.movies-table-row {
+    display: flex;
+    height: 16.66%;
+    border-bottom: 1px solid lightgray;
+    color: white;
+}
+
+.column{
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
