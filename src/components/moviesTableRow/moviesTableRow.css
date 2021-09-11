@@ -1,0 +1,65 @@
+.movies-table-row {
+    display: flex;
+ 
+    height: 25%;
+   border-bottom: cornsilk;
+    color: white;
+}
+.movies-table-row:hover{
+    transform: scale(1.05);
+    transition: linear 200ms;
+   
+}
+
+.column.serial-number{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.column.movie-name{
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.genre{
+    margin-left: 5px;
+}
+
+.trailer{
+    text-decoration: none;
+    text-decoration-color: white;
+    margin-left: 40px;
+
+}
+
+.rating{
+    margin-left: 5px;
+}
+
+
+
+.trailer-image{
+    height: 105px;
+    width: 110px;
+}
+
+.top-row{
+    display: flex;
+}
+
+.mid-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-row-one,.mid-row-two{
+    display: flex;
+}
+.mid-row-two{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+
+

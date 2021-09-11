@@ -1,0 +1,20 @@
+.sidebar-button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 25px; */
+}
+
+.sidebar-button:hover{
+    cursor: pointer;
+  transition: linear 300ms;
+  color: white;
+  background-color: red;
+  transform: scale(1.05);
+
+}
